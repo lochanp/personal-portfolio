@@ -170,7 +170,6 @@
   }
 
   
-  
   /* Projects section */
   
   .projects-section {
@@ -312,9 +311,7 @@
     transform: translateY(8px);
   }
   .copywrite {
-    display: block;
-    position: relative;
-    top: 10px;
+    margin-top: 10px;
   }
   
   @media (max-width: 28.75em) {
