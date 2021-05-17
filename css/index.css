@@ -1,7 +1,7 @@
 :root {
     --main-white: #f0f0f0;
     --main-red: #be3144;
-    --main-blue: #010e3f;
+    --main-blue: #f2dac3;
     --main-gray: #303841;
   }
   
@@ -167,6 +167,7 @@
   .welcome-section > h2 {
     font-weight: lighter;
     font-family: 'Oswald', sans-serif;
+    color: black;
   }
 
   
@@ -181,12 +182,14 @@
   .projects-section-header {
     max-width: 1000px;
     margin: 0 auto 5rem auto;
-    border-bottom: 0.2rem solid var(--main-white);
+    border-bottom: 0.2rem solid var(--main-gray);
+    color: var(--main-red);
     font-weight: lighter;
     font-size: 3.75rem;
   }
   .click {
     margin-bottom: 20px;
+    color: var(--main-gray);
   }
   @media (max-width: 25em) {
     .projects-section-header {
