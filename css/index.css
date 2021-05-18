@@ -265,33 +265,41 @@
   .copywrite {
     margin-top: 10px;
   }
-  @media (max-width:700px) {
+  @media(max-width:700px) {
     h2 {
-      font-size: 4rem !important;
-    }
-    .welcome-section p {
-      font-size: 2.5rem !important;
-    }
-    .projects-section-header {
       font-size: 3rem !important;
     }
+    .welcome-section p {
+      font-size: 2rem !important;
+    }
+    .projects-section-header {
+      font-size: 2rem !important;
+    }
     .welcome-section {
-      height: 70vh;
+      height: 45vh !important;
       margin-top: 8rem !important;
     }
     .contact-section {
-      height: 40vh;
+      height: 30vh;
       padding: 0;
       margin: 0;
       margin-top: auto !important;
     }
     .contact-section-header > h2 {
-      font-size: 3rem !important;
+      font-size: 2rem !important;
     }
     .contact-section-header > p {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     #profile-link {
-      font-size: 2rem !important;
+      font-size: 1.5rem !important;
+    }
+    .project-image {
+      height: 20vh !important;
+    }
+    .card {
+      height: 25vh;
+      width: 70%;
+      margin-left: 5rem;
     }
   }
