@@ -1,7 +1,7 @@
 :root {
     --main-white: #f0f0f0;
-    --main-red: #be3144;
-    --main-blue: #c8c2bc;
+    --main-red: #310b0b;
+    --main-blue: #e4efe7;
     --main-gray: #303841;
   }
   
@@ -154,7 +154,7 @@
   .projects-section {
     text-align: center;
     padding: 8rem 2rem;
-    background-image: linear-gradient(var(--main-blue),#566189);;
+    background-image: linear-gradient(var(--main-blue),#493323);
   }
   
   .projects-section-header {
